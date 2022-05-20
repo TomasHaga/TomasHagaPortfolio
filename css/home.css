@@ -1,0 +1,50 @@
+
+
+body {
+    background-color: var(--background-page);
+}
+
+h1 {
+  font-size: var(--h1-size);
+}
+
+p {
+  line-height: 1.5rem;
+}
+
+
+.workslist {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+  
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: flex 0.8s ease-in;
+  }
+  .item:hover {
+    flex: 8;
+  }
+
+  .item-0{
+    background-color: var(--background-page);
+    color: white;
+  }
+  
+
+  /*@media (max-width: 600px) {
+    .workslist {
+      width: 100%;
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }*/
+
+
+
