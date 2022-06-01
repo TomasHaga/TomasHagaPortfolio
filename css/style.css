@@ -1,7 +1,4 @@
-html {
-    font-size: 20px;
-    
-}
+
 
 
 body {
@@ -15,9 +12,7 @@ main {
     margin: auto;
   }
 
-p {
-    justify-content: center;
-}
+
 
 
 
@@ -29,6 +24,10 @@ header {
     display: flex;
 
     justify-content: right;
+}
+
+p {
+    font-size: 1.25rem;
 }
 
 main {
@@ -84,6 +83,17 @@ html, body {
 .burger-icon {
     display: block;
 }
+
+
+@media (max-width: 600px) {
+    main {
+        max-width: 600px;
+        width: 80%;
+        margin: auto;
+      }
+    
+  }
+
 
 /*@media screen and (min-width: 768px)  {
     .burger-icon {
