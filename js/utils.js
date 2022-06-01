@@ -55,7 +55,6 @@ export function handleParagraphs(body) {
     };
     return text;
 }
-
 //document.querySelector('img-container-article').forEach(function(el, i){
   //  el.id = i;
   //el.classList.add('img-class');

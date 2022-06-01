@@ -90,9 +90,6 @@ async function getPosts() {
       console.log(post.mainImage.asset._ref)
 
       workBlock.setAttribute('style', `background-image: url('${handleImageStyle (post.mainImage.asset._ref)}')`,)
-    
-      
-      
     // vi trenger en h2 element inn i hoved block
     // const workTitle = document.createElement('h2'); // vi lagd <h2></h2> her
     // workTitle.classList.add('work-title'); // <h2 class="work-title"></h2>
@@ -101,7 +98,6 @@ async function getPosts() {
     //const workMask = document.createElement('div'); // vi lager div mask
     //workMask.classList.add('work-mask'); // <div class="work-mask"></div>
     //workBlock.append(workMask); // og legge vi inn <div> inn i <a> block
-
       //Bildet håndtering
       // det som følger etter trenger vi for å hente bilder fra sanity CDN plattform 
       // vi henter reference og skriver vi inn et element <img>
