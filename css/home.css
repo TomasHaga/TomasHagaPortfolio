@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: var(--background-page);
+    background-color: var(--dark-gray);
 }
 
 h1 {
@@ -21,7 +21,7 @@ p {
 }
   
 .item {
-    flex: 1;
+    flex: 2;
     height: 100%;
     background-position: center;
     background-size: cover;
@@ -29,22 +29,33 @@ p {
     transition: flex 0.8s ease-in;
   }
   .item:hover {
-    flex: 8;
+    flex: 7;
   }
 
   .item-0{
-    background-color: var(--background-page);
+    background-color: var(--dark-gray);
     color: white;
   }
+
+  #footer-text {
+    display: flex;
+    float: right;
+    color: white;
+    gap: 2rem
+  }
+  
+ 
   
 
-  /*@media (max-width: 600px) {
+  
+
+  @media (max-width: 600px) {
     .workslist {
       width: 100%;
       flex-direction: column;
       gap: 2rem;
     }
-  }*/
+  }
 
 
 

@@ -27,7 +27,7 @@ header {
     color: #fff;
     z-index: 5;
     display: flex;
-    
+
     justify-content: right;
 }
 
@@ -36,12 +36,16 @@ main {
 }
 
 footer {
-    min-height: 40px;
-    padding: 5px;
-    background-color: var(--background-page);
-    color: #fff;
+    margin-top: 5rem;
+    width: 100%;
+   
+    
 }
 
+#footer-text ul {
+    list-style: none;
+    padding: 2rem;
+  }
 
 
 html, body {
@@ -81,7 +85,7 @@ html, body {
     display: block;
 }
 
-@media screen and (min-width: 768px)  {
+/*@media screen and (min-width: 768px)  {
     .burger-icon {
         display: none;
     }
@@ -108,5 +112,4 @@ html, body {
         display: block;
     }
     
-}
-
+}*/

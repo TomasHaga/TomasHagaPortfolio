@@ -8,13 +8,15 @@ function init() {
     const paramsUrl = new URLSearchParams(urlString);
     const pageValue = paramsUrl.get('page')
 
-    const burgerIcon = document.querySelector('.burger-icon');
-    const mobileNav = document.querySelector('.mobile-nav');
-    burgerIcon.addEventListener('click', () => {
-        mobileNav.classList.toggle('mobile-nav-hide');
-        burgerIcon.classList.toggle('burger');
-        burgerIcon.classList.toggle('closemobilemenu');
-    });
+    //const burgerIcon = document.querySelector('.burger-icon');
+    //const mobileNav = document.querySelector('.mobile-nav');
+    //burgerIcon.addEventListener('click', () => {
+      //  mobileNav.classList.toggle('mobile-nav-hide');
+        //burgerIcon.classList.toggle('burger');
+        //burgerIcon.classList.toggle('closemobilemenu');
+    //});
+
+    
 
     if(pageValue === null) {
         getPosts(); 
